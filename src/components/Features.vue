@@ -1,7 +1,7 @@
 <template>
-  <div class="py-12">
+  <div class="py-12 mb-32">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="mt-12">
+      <div class="mt-48">
         <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-5 md:gap-x-8 md:gap-y-10">
           <div v-for="feature in features" :key="feature.name" class="relative">
             <dt>
@@ -46,7 +46,7 @@ const features = [
     name: 'Learn',
     description: 'Gain direct access to a wealth of information and pick-up new skills or tips.',
     icon: AcademicCapIcon,
-    bgclass: 'bg-green-300'
+    bgclass: 'bg-green-400'
   },
   {
     name: 'Earn',
