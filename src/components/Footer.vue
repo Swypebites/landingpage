@@ -5,7 +5,7 @@
     <!-- FOOTER NAV -->
     <div class="px-4">
       <a href="#">
-        <img class="h-6 w-auto sm:h-6" src="./../assets/SB_WHITE.svg" alt />
+        <img class="h-6 w-auto sm:h-6" src="../assets/SB_WHITE.svg" alt />
       </a>
       <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-5 md:gap-x-8 md:gap-y-10">
         <div class="px-5 py-5 sm:px-8 sm:py-8">

@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
         <div class="flex justify-start lg:w-0 lg:flex-1">
           <a href="#">
-            <img class="h-6 w-auto sm:h-6" src="./../assets/SB_WHITE.svg" alt="" />
+            <img class="h-6 w-auto sm:h-6" src="../assets/SB_WHITE.svg" alt="" />
           </a>
         </div>
 
@@ -44,7 +44,7 @@
             A seamless social shopping experience is just one swipe away
           </p>
           <div class="mt-20 flex justify-center">
-            <img src="./../assets/DEMO.svg" alt="" />
+            <img src="../assets/DEMO.svg" alt="" />
           </div>
           
         </div>

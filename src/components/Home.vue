@@ -17,7 +17,7 @@
     <span class="dot-5" />
     <span class="dot-6" />
     <span class="dot-7" />
-    <img class="w-6/12 h-6/12 illus-1" src="./../assets/illus_home_1.svg" alt="" />
+    <img class="w-6/12 h-6/12 illus-1" src="../assets/illus_home_1.svg" alt="" />
     <svg class="wave-1" width="241" height="422" viewBox="-260 100 1 412" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="white-to-lilac" x1="0" x2="0" y1="0" y2="1">
