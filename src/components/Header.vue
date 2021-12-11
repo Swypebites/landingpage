@@ -44,7 +44,7 @@
             A seamless social shopping experience is just one swipe away
           </p>
           <div class="mt-20 flex justify-center">
-            <img src="../assets/DEMO.svg" alt="" />
+            <img src="../assets/Demo.svg" alt="" />
           </div>
           
         </div>

@@ -17,7 +17,7 @@
     <span class="dot-5" />
     <span class="dot-6" />
     <span class="dot-7" />
-    <img class="w-6/12 h-6/12 illus-1" src="../assets/illus_home_1.svg" alt="" />
+    <img class="w-8/12 h-8/12 illus-1" src="../assets/illus_home_1.svg" alt="" />
     <svg class="wave-1" width="241" height="422" viewBox="-260 100 1 412" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="white-to-lilac" x1="0" x2="0" y1="0" y2="1">
@@ -69,7 +69,7 @@
     display: block;
     position: absolute;
     top: 45%;
-    left: 24.5%;
+    left: 16.5%;
     pointer-events: none;
   }
   .wave-1 {
@@ -96,7 +96,7 @@
 
   .wave-3 {
     margin-top: 500px;
-    padding-left: 2099px;
+    padding-left: 1600px;
     display: block;
     position: absolute;
     top: 0;
@@ -109,7 +109,7 @@
 
   .wave-4 {
     margin-top: 1100px;
-    padding-right: 1200px;
+    padding-right: 900px;
     display: block;
     position: absolute;
     top: 0;
