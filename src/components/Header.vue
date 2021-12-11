@@ -8,8 +8,8 @@
           </a>
         </div>
 
-        <div class="flex justify-between lg:w-0 lg:flex-1">
-           <a href="#" class="text-base font-normal text-white">
+        <div class="flex justify-between lg:w-0 lg:flex-1 invisible md:visible">
+          <a href="#" class="text-base font-normal text-white">
             Home
           </a>
 
@@ -33,7 +33,7 @@
         </div>
 
       </div>
-      <main class="mt-40 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+      <main class="mt-40 mx-auto max-w-7xl px-4 sm:mt-2 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div class="sm:text-center lg:text-center">
           <h1 class="text-4xl tracking-tight font-extrabold text-custom-blue sm:text-5xl md:text-6xl">
             <span class="block xl:inline">Lifestyle</span>

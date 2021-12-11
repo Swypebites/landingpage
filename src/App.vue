@@ -10,9 +10,8 @@ import Home from './components/Home.vue'
 
 <style scoped>
  html, body {
-   height: 100%
- }
- .home {
-   height: 100%
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
  }
 </style>

@@ -10,15 +10,15 @@
     <Banner />
     <Header />
     <Features />
-    <span class="dot-1" />
-    <span class="dot-2" />
-    <span class="dot-3" />
-    <span class="dot-4" />
-    <span class="dot-5" />
-    <span class="dot-6" />
-    <span class="dot-7" />
-    <img class="w-8/12 h-8/12 illus-1" src="../assets/illus_home_1.svg" alt="" />
-    <svg class="wave-1" width="241" height="422" viewBox="-260 100 1 412" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- <span class="dot-1" /> -->
+    <!-- <span class="dot-2" /> -->
+    <!-- <span class="dot-3" /> -->
+    <!-- <span class="dot-4" /> -->
+    <!-- <span class="dot-5" /> -->
+    <!-- <span class="dot-6" /> -->
+    <!-- <span class="dot-7" /> -->
+    <img class="w-8/12 h-8/12 illus-1 invisible md:visible" src="../assets/illus_home_1.svg" alt="" />
+    <svg class="wave-1 invisible md:visible" width="241" height="422" viewBox="-260 100 1 412" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="white-to-lilac" x1="0" x2="0" y1="0" y2="1">
           <stop offset="0%" stop-color="#D8D5E7" />
@@ -36,7 +36,7 @@
       </defs>
       <path d="M-233.491 41.4156C-182.324 -25.757 95.8735 -5.14967 141.995 73.419C180.105 138.34 -58.4076 140.516 -27.6674 205.841C11.7175 289.536 312.748 211.82 353.641 295.456C392.068 374.047 264.9 443.308 157.409 458.016C49.9176 472.725 -229.873 419.364 -313.209 365.488" stroke="#2D2B3C" stroke-width="1.5"/>
     </svg>
-    <svg class="wave-3" width="314" height="526" viewBox="0 0 314 526" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- <svg class="wave-3 invisible md:visible" width="262" height="362" viewBox="0 0 314 526" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="white-to-lilac" x1="0" x2="0" y1="0" y2="1">
           <stop offset="0%" stop-color="#D8D5E7" />
@@ -44,8 +44,8 @@
         </linearGradient>
       </defs>
       <path d="M589.113 407.138C563.799 487.716 295.42 562.567 225.457 504.222C167.648 456.011 314.417 392.539 263.396 341.451C198.026 275.997 88.7361 362.504 21.9688 297.616C-40.771 236.643 53.5572 145.279 128.001 97.1162C278.501 -0.252505 445.336 -11.5722 541.897 10.9165" stroke="#2D2B3C" stroke-width="1.5"/>
-    </svg>
-    <svg class="wave-4" width="412" height="515" viewBox="0 0 412 515" fill="none" xmlns="http://www.w3.org/2000/svg">
+    </svg> -->
+    <!-- <svg class="wave-4 invisible md:visible" width="412" height="515" viewBox="0 0 412 515" fill="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="white-to-lilac" x1="0" x2="0" y1="0" y2="1">
           <stop offset="0%" stop-color="#D8D5E7" />
@@ -53,7 +53,7 @@
         </linearGradient>
       </defs>
       <path d="M-240.093 97.0639C-208.318 18.8085 65.2549 -33.9958 130.247 29.8398C183.949 82.5868 32.5087 133.928 79.2119 188.991C139.049 259.539 331.02 118.894 392.296 188.991C449.875 254.859 369.284 384.8 214.501 455.242C70.8895 520.601 -130.802 526.069 -225.218 495.811" stroke="#2D2B3C" stroke-width="1.5"/>
-    </svg>
+    </svg> -->
     <Footer />
   </div>
 </template>
@@ -96,11 +96,10 @@
 
   .wave-3 {
     margin-top: 500px;
-    padding-left: 1600px;
     display: block;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20%;
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -133,8 +132,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 1637px;
-    top: 118px;
+    left: 0px;
+    top: 0px;
     opacity: 0.5;
  }
  .dot-2 {
@@ -144,8 +143,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 874px;
-    top: 350px;
+    left: 0px;
+    top: 0px;
     opacity: 0.5;
  }
 
@@ -156,8 +155,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 1628px;
-    top: 398px;
+    left: 0px;
+    top: 0px;
     opacity: 0.5;
  }
  .dot-4 {
@@ -167,8 +166,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 889px;
-    top: 762px;
+    left:08px;
+    top: 0px;
     opacity: 0.5;
  }
  .dot-5 {
@@ -178,8 +177,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 1560px;
-    top: 714px;
+    left: 0px;
+    top: 0px;
     opacity: 0.5;
  }
 
@@ -190,8 +189,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 750px;
-    top: 1038px;
+    left: 0px;
+    top: 0px;
     opacity: 0.5;
  }
 
@@ -202,8 +201,8 @@
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 1878px;
-    top: 996px;
+    left: 0px;
+    top: 0px;
     opacity: 0.5;
  }
 </style>

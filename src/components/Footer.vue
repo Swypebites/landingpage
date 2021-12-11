@@ -83,7 +83,7 @@
           class="text-xs text-white font-semibold py-1"
         >2021 © Swypebites, Sayang Haeyo Pte Ltd. 12 Kallang Ave, #01-56 S339511</div>
       </div>
-      <div class="w-full md:w-8/12 px-4">
+      <div class="w-full md:w-8/12 px-4 invisible md:visible">
         <ul class="flex flex-wrap list-none md:justify-end justify-center">
           <li class="px-2">
             <svg
@@ -184,5 +184,5 @@ export default {
 }
 .footer-bg {
    background-color: #1F1D2B;
- }
+}
 </style>
