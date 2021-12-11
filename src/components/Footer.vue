@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-4 footer-bg">
     <hr class="mb-6 border-b-1 border-gray-700" />
 
     <!-- FOOTER NAV -->
@@ -182,4 +182,7 @@ export default {
 .bg-custom-black {
   background-color: #2d2c38;
 }
+.footer-bg {
+   background-color: #1F1D2B;
+ }
 </style>
