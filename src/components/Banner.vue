@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-700">
+  <div class="bg-blue-700 footer-bg">
     <div class="max-w-7xl mx-auto py-2 px-2 sm:px-5 lg:px-5">
       <div class="flex justify-center items-center">
         <span class="flex p-2 rounded-lg bg-blue-900 shadow-xl">
@@ -25,3 +25,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+ .footer-bg {
+   background-color: #1F1D2B;
+ }
+</style>
