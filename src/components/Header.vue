@@ -8,7 +8,7 @@
           </a>
         </div>
 
-        <div class="flex justify-between lg:w-0 lg:flex-1 invisible md:visible">
+        <div class="flex justify-between md:w-0 md:flex-auto lg:w-0 lg:flex-1 invisible md:visible">
           <a href="#" class="text-base font-normal text-white">
             Home
           </a>
@@ -26,7 +26,7 @@
           </a>
         </div>
 
-        <div class="flex justify-end lg:w-0 lg:flex-1">
+        <div class="flex justify-end lg:w-0 lg:flex-1 invisible md:visible">
           <a href="#" class="text-base font-normal text-black">
             .
           </a>
