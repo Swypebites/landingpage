@@ -62,13 +62,13 @@
   #base {
     background-color: #1F1D2B;
     color: #FFFFFF;
-    height: 200vh;
+    height: 100%;
   }
   .illus-1 {
     margin: 0;
     display: block;
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 16.5%;
     pointer-events: none;
   }
