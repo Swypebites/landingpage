@@ -13,15 +13,15 @@
             Home
           </a>
 
-          <a href="#" class="text-base font-normal text-gray-500 hover:text-white">
+          <a class="text-base font-normal text-gray-500 hover:text-white" @click="goTo404">
             About
           </a>
           
-          <a href="#" class="text-base font-normal text-gray-500 hover:text-white">
+          <a href="#" class="text-base font-normal text-gray-500 hover:text-white" @click="goTo404">
             Creators
           </a>
 
-          <a href="#" class="text-base font-normal text-gray-500 hover:text-white">
+          <a href="#" class="text-base font-normal text-gray-500 hover:text-white" @click="goTo404">
             Businesses
           </a>
         </div>
@@ -65,6 +65,11 @@ export default {
   },
   setup() {
   },
+  methods: {
+    goTo404() {
+      this.$router.push('/pagenotfound')
+    }
+  }
 }
 </script>
 

@@ -15,6 +15,7 @@
               <li v-for="data in aboutFooter" :key="data.id" class="text-base truncate">
                 <a
                   :href="data.href"
+                  @click="goTo404"
                   class="text-xs text-custom-lilac-light font-extralight hover:text-white"
                 >{{ data.name }}</a>
               </li>
@@ -41,6 +42,7 @@
               <li v-for="data in businessFooter" :key="data.id" class="text-base truncate">
                 <a
                   :href="data.href"
+                  @click="goTo404"
                   class="text-xs text-custom-lilac-light font-extralight hover:text-white"
                 >{{ data.name }}</a>
               </li>
@@ -54,6 +56,7 @@
               <li v-for="data in newsroomFooter" :key="data.id" class="text-base truncate">
                 <a
                   :href="data.href"
+                  @click="goTo404"
                   class="text-xs text-custom-lilac-light font-extralight hover:text-white"
                 >{{ data.name }}</a>
               </li>
@@ -67,6 +70,7 @@
               <li v-for="data in contactFooter" :key="data.id" class="text-base truncate">
                 <a
                   :href="data.href"
+                  @click="goTo404"
                   class="text-xs text-custom-lilac-light font-extralight hover:text-white"
                 >{{ data.name }}</a>
               </li>
@@ -166,6 +170,11 @@ export default {
       contactFooter,
     }
   },
+   methods: {
+    goTo404() {
+      this.$router.push('/pagenotfound')
+    }
+  }
 }
 </script>
 
