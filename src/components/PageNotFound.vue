@@ -1,7 +1,7 @@
 <template>
     <div class="bg-black h-screen flex justify-center">
-        <div class="px-4 py-5 sm:px-6">
-            <h1 class="text-center text-5xl text-white pt-40">
+        <div class="px-4 py-20 sm:px-6">
+            <h1 class="text-center text-5xl text-white">
                 Page Not Found
             </h1>
             <h1 class="text-center text-lg text-white pt-5">
