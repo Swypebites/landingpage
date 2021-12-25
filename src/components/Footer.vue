@@ -85,7 +85,7 @@
       <div class="w-full md:w-4/12 px-4">
         <div
           class="text-xs text-white font-semibold py-1"
-        >2021 © Swypebites, Sayang Haeyo Pte Ltd. 12 Kallang Ave, #01-56 S339511</div>
+        >All Rights Reserved l Swypebites</div>
       </div>
       <div class="w-full md:w-8/12 px-4 invisible md:visible">
         <ul class="flex flex-wrap list-none md:justify-end justify-center">
